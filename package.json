@@ -1,0 +1,23 @@
+{
+  "name": "rss-to-express-api",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lioncoding-oss/rss-to-express-api.git"
+  },
+  "description": "Transform RSS Feeds into API",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Laurent Egbakou",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "rss-parser": "^3.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
