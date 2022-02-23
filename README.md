@@ -13,3 +13,15 @@ This is just a sample demonstrating how to make News API from a crypto RSS Feed.
 ## Postman
 
 ![](assets/postman-request.png)
+
+## Getting started with the sample
+
+```shell
+git clone https://github.com/lioncoding-oss/rss-to-express-api.git
+cd rss-to-express-api
+npm install
+npm start # nodemon 
+
+nose src/app.js # no reload
+```
+
