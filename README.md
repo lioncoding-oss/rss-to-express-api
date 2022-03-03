@@ -22,6 +22,6 @@ cd rss-to-express-api
 npm install
 npm start # nodemon 
 
-nose src/app.js # no reload
+node src/app.js # no reload
 ```
 
