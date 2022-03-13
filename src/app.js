@@ -27,7 +27,7 @@ app.get('/api/news', async (req, res) => {
         .catch(err => {
             res.status(500).json({
                 status: 'error',
-                message: 'An error occurred when fetching new'
+                message: 'An error occurred when fetching news'
             })
         })
 })
